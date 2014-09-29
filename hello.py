@@ -3,11 +3,10 @@ __author__="Nurzhan"
 # Class: CS 3240
 # File: hello.py
 
+from helper import greeting
+
 def printHello():
     print "Hello"
-
-def greeting(msg):
-    print msg
 
 if __name__ == '__main__' :
     printHello()
